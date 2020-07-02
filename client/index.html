@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Forums Page</title>
+</head>
+<body>
+    <header>
+        <h1 class="title"> Forums Page for Bootcamp </h1>
+    </header>
+<main>
+    <form class="new-form">
+        <label for ="name">Name</label>
+        <input class="u-half-width" type="text" id="name" name="name">
+        <label for="content">Your Message</label>
+      <textarea class="u-full-width" type="text" id="content" name="content"></textarea>
+      <button class="button-primary">Post</button>
+    </form>
+    <div class="button-container">
+        <!-- <button id="loadMoreButton" class="button-primary" style="visibility: hidden">Load More Mews</button> -->
+        <p id="loadMore">Loading...</p>
+      </div>
+      <div class="loading">
+        <img src="loading.gif" alt="">
+      </div>
+      <div class="news">
+
+      </div>
+</main>
+<script src="client.js"></script>
+</body>
+</html>
